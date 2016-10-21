@@ -1,0 +1,3 @@
+* My ergodox layout for easy sharing between work and home
+The aim is to get a decent layout for typing [[http://aoeu.info/][svorak]] on. Which happens to be
+the swedish dvorak of my choice.
