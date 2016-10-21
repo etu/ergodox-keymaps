@@ -872,8 +872,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "RALT",
-                    "label": "RALT"
+                    "key": "PAGEUP",
+                    "label": "PGUP"
                 }
             }
         },
@@ -1005,8 +1005,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "PAGEUP",
-                    "label": "PGUP"
+                    "key": "PAGEDOWN",
+                    "label": "PGDN"
                 }
             }
         },
@@ -1018,8 +1018,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "PAGEDOWN",
-                    "label": "PGDN"
+                    "key": "RALT",
+                    "label": "RALT"
                 }
             }
         },
