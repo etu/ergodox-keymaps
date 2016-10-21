@@ -1,12 +1,12 @@
 {
     "header": {
         "Name": "MDErgo1",
-        "Layout": "Default",
-        "Base": "Blank",
+        "Layout": "Etu",
+        "Base": "Default",
         "Version": "0.1",
-        "Author": "HaaTa (Jacob Alexander) 2015",
+        "Author": "Elis 'Etu' Axelsson",
         "KLL": "0.3c",
-        "Date": "2015-09-12",
+        "Date": "2016-10-21",
         "Generator": "KIICONF 0.2"
     },
     "matrix": [
@@ -306,8 +306,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LALT",
-                    "label": "LALT"
+                    "key": "HOME",
+                    "label": "HOME"
                 }
             }
         },
@@ -319,8 +319,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LCTRL",
-                    "label": "LCTRL"
+                    "key": "DELETE",
+                    "label": "DEL"
                 }
             }
         },
@@ -423,8 +423,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "HOME",
-                    "label": "HOME"
+                    "key": "END",
+                    "label": "END"
                 }
             }
         },
@@ -436,8 +436,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "END",
-                    "label": "END"
+                    "key": "LALT",
+                    "label": "LALT"
                 }
             }
         },
@@ -449,8 +449,8 @@
             "h": 8,
             "layers": {
                 "0": {
-                    "key": "DELETE",
-                    "label": "DEL"
+                    "key": "LCTRL",
+                    "label": "LCTRL"
                 }
             }
         },
