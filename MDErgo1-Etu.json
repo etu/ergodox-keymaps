@@ -137,8 +137,8 @@
             "h": 6,
             "layers": {
                 "0": {
-                    "key": "LCK1",
-                    "label": "LOCK-1"
+                    "key": "Z",
+                    "label": "Z"
                 }
             }
         },
@@ -397,8 +397,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "Z",
-                    "label": "Z"
+                    "key": "ISO\/",
+                    "label": "ISO\/"
                 }
             }
         },
@@ -500,10 +500,7 @@
             "w": 4,
             "h": 4,
             "layers": {
-                "0": {
-                    "key": "BACKSLASH",
-                    "label": "\\"
-                }
+
             }
         },
         {
