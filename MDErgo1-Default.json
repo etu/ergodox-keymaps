@@ -1,12 +1,12 @@
 {
     "header": {
         "Name": "MDErgo1",
-        "Layout": "Etu",
-        "Base": "Default",
+        "Layout": "Default",
+        "Base": "Blank",
         "Version": "0.1",
-        "Author": "Elis 'Etu' Axelsson",
+        "Author": "HaaTa (Jacob Alexander) 2015",
         "KLL": "0.3c",
-        "Date": "2016-10-21",
+        "Date": "2015-09-12",
         "Generator": "KIICONF 0.2"
     },
     "matrix": [
