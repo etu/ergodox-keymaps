@@ -1,6 +1,7 @@
 {
     "header": {
         "Name": "MDErgo1",
+        "Variant": "standard",
         "Layout": "Default",
         "Base": "Blank",
         "Version": "0.1",
@@ -9,6 +10,9 @@
         "Date": "2015-09-12",
         "Generator": "KIICONF 0.2"
     },
+    "defines": [
+
+    ],
     "matrix": [
         {
             "code": "0x02",
@@ -1047,5 +1051,19 @@
                 }
             }
         }
-    ]
+    ],
+    "leds": [
+
+    ],
+    "custom": {
+
+    },
+    "animations": {
+        "all_on": {
+            "settings": "start, pfunc:interp",
+            "frames": [
+                "P[c:0%](255), P[c:100%](255)"
+            ]
+        }
+    }
 }
