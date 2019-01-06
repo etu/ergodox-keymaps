@@ -338,6 +338,10 @@
                 "0": {
                     "key": "FUN1",
                     "label": "\u01921"
+                },
+                "1": {
+                    "key": "FUN2",
+                    "label": "\u01922"
                 }
             }
         },
@@ -504,7 +508,10 @@
             "w": 4,
             "h": 4,
             "layers": {
-
+                "0": {
+                    "key": "PRINTSCREEN",
+                    "label": "PRSC"
+                }
             }
         },
         {
@@ -541,8 +548,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LCK2",
-                    "label": "LOCK-2"
+                    "key": "ESCAPE",
+                    "label": "ESC"
                 },
                 "1": {
                     "key": "F12",
@@ -645,6 +652,10 @@
                 "0": {
                     "key": "MINUS",
                     "label": "-"
+                },
+                "2": {
+                    "key": "#:flashMode()",
+                    "label": "FLASH"
                 }
             }
         },
@@ -853,6 +864,10 @@
                 "0": {
                     "key": "FUN1",
                     "label": "\u01921"
+                },
+                "1": {
+                    "key": "FUN2",
+                    "label": "\u01922"
                 }
             }
         },
