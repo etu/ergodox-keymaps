@@ -6,7 +6,7 @@ the swedish dvorak of my choice.
 
 ** How to flash
 You can download the firmware from here:
-https://configure.ergodox-ez.com/ergodox-ez/layouts/ABw90/latest/0
+[[https://configure.ergodox-ez.com/ergodox-ez/layouts/5B5vE/latest/0]]
 
 Or use the file named =ergodox_ez_elis-s-svorak-layout_ABw90_o9zDe.hex= which
 is provided in this repository.
