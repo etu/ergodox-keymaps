@@ -7,8 +7,8 @@ But now I have got myself an ErgoDox EZ-compatible device from falba.tech.
 
 So now the repository have been repurposed to contain both of these layouts.
 
-** ErgoDox EZ layout
-[[https://raw.githubusercontent.com/etu/ergodox-keymaps/master/ez/layout.png]]
+** ErgoDox EZ Svorak using QMK
+[[https://raw.githubusercontent.com/etu/ergodox-keymaps/master/qmk_ez_svorak/layout.png]]
 
-** ErgoDox Infinity layout
-[[https://raw.githubusercontent.com/etu/ergodox-keymaps/master/infinity/layout.png]]
+** ErgoDox Infinity Svorak using QMK
+[[https://raw.githubusercontent.com/etu/ergodox-keymaps/master/qmk_infinity_svorak/layout.png]]
