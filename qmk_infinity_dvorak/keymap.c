@@ -21,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |   \|   |   '  |   ,  |   .  |   P  |   Y  |  [{  |           |  ]}  |   F  |   G  |   C  |   R  |   L  |   =+   |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
  * | Tab    |   A  |   O  |   E  |   U  |   I  |------|           |------|   D  |   H  |   T  |   N  |   S  |   -_   |
- * |--------+------+------+------+------+------|  f1  |           |  f1  |------+------+------+------+------+--------|
+ * |--------+------+------+------+------+------|  f1  |           | SLCK |------+------+------+------+------+--------|
  * | LShift |  ;:  |   Q  |   J  |   K  |   X  |      |           |      |   B  |   M  |   W  |   V  |   Z  | RShift |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
  *   | LGUI | SLCK | PRSC | Left | Right|                                       | Left | Down |  Up  |Right | RGui |
@@ -48,7 +48,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_ESC,          DV_6,        DV_7,          DV_8,    DV_9,    DV_0,    DV_SLSH,
   DV_RBRC,         DV_F,        DV_G,          DV_C,    DV_R,    DV_L,    DV_EQL,
                    DV_D,        DV_H,          DV_T,    DV_N,    DV_S,    DV_MINS,
-  MO(FN),          DV_B,        DV_M,          DV_W,    DV_V,    DV_Z,    KC_RSFT,
+  KC_SLCK,         DV_B,        DV_M,          DV_W,    DV_V,    DV_Z,    KC_RSFT,
                                 KC_LEFT,       KC_DOWN, KC_UP,   KC_RGHT, KC_RGUI,
   KC_PGUP,         KC_RCTL,
   KC_PGDN,
