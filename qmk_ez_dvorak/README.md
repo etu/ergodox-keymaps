@@ -1,8 +1,10 @@
-* My Dvorak layout for Ergodox EZ using QMK
-[[https://raw.githubusercontent.com/etu/ergodox-keymaps/master/qmk_ez_dvorak/layout.png]]
+# My Dvorak layout for Ergodox EZ using QMK
 
-** How to flash
-#+BEGIN_SRC bash
+![ErgoDox EZ Dvorak using QMK](https://raw.githubusercontent.com/etu/ergodox-keymaps/main/qmk_ez_dvorak/layout.png)
+
+## How to flash
+
+```bash
 # Prepare the code
 git clone https://github.com/qmk/qmk_firmware.git
 
@@ -23,4 +25,4 @@ make ergodox_ez:default
 
 # Flash firmware
 sudo teensy-loader-cli -mmcu=atmega32u4 -w ergodox_ez_default.hex -v
-#+END_SRC
+```

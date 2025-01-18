@@ -1,8 +1,10 @@
-* My Dvorak layout for Ergodox Infinity using QMK
-[[https://raw.githubusercontent.com/etu/ergodox-keymaps/master/qmk_infinity_dvorak/layout.png]]
+# My Dvorak layout for Ergodox Infinity using QMK
 
-** How to flash
-#+BEGIN_SRC bash
+![ErgoDox Infinity Dvorak using QMK](https://raw.githubusercontent.com/etu/ergodox-keymaps/main/qmk_infinity_dvorak/layout.png)
+
+## How to flash
+
+```bash
 # Prepare the code
 git clone https://github.com/qmk/qmk_firmware.git
 
@@ -29,4 +31,4 @@ sudo make ergodox_infinity:default:dfu-util
 
 # Flash right half
 sudo make ergodox_infinity:default:dfu-util MASTER=right
-#+END_SRC
+```
