@@ -24,10 +24,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |   \|   |   '  |   ,  |   .  |   P  |   Y  |  [{  |           |  ]}  |   F  |   G  |   C  |   R  |   L  |   =+   |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
  * | Tab    |   A  |   O  |   E  |   U  |   I  |------|           |------|   D  |   H  |   T  |   N  |   S  |   -_   |
- * |--------+------+------+------+------+------|  f1  |           | SLCK |------+------+------+------+------+--------|
+ * |--------+------+------+------+------+------|  f1  |           | SCRL |------+------+------+------+------+--------|
  * | LShift |  ;:  |   Q  |   J  |   K  |   X  |      |           |      |   B  |   M  |   W  |   V  |   Z  | RShift |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
- *   | LGUI | SLCK | PRSC | Left | Right|                                       | Left | Down |  Up  |Right | RGui |
+ *   | LGUI | SCRL | PSCR | Left | Right|                                       | Left | Down |  Up  |Right | RGui |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,-------------.
  *                                        | Del  | Home |       | PgUp |Ctrl/Esc|
@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   DV_BSLS,         DV_QUOT,     DV_COMM,       DV_DOT,  DV_P,    DV_Y,    DV_LBRC,
   KC_TAB,          DV_A,        DV_O,          DV_E,    DV_U,    DV_I,
   KC_LSFT,         DV_SCLN,     DV_Q,          DV_J,    DV_K,    DV_X,    MO(FN),
-  KC_LGUI,         KC_SLCK,     KC_PSCR,       KC_LEFT, KC_RGHT,
+  KC_LGUI,         KC_SCRL,     KC_PSCR,       KC_LEFT, KC_RGHT,
                                                                  KC_DEL,  KC_HOME,
                                                                           KC_END,
                                                         KC_BSPC, KC_LCTL, KC_LALT,
@@ -51,7 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_ESC,          DV_6,        DV_7,          DV_8,    DV_9,    DV_0,    DV_SLSH,
   DV_RBRC,         DV_F,        DV_G,          DV_C,    DV_R,    DV_L,    DV_EQL,
                    DV_D,        DV_H,          DV_T,    DV_N,    DV_S,    DV_MINS,
-  KC_SLCK,         DV_B,        DV_M,          DV_W,    DV_V,    DV_Z,    KC_RSFT,
+  KC_SCRL,         DV_B,        DV_M,          DV_W,    DV_V,    DV_Z,    KC_RSFT,
                                 KC_LEFT,       KC_DOWN, KC_UP,   KC_RGHT, KC_RGUI,
   KC_PGUP,         KC_RCTL,
   KC_PGDN,
@@ -80,7 +80,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [FN] = LAYOUT_ergodox(
   // left hand
-  RESET,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F11,
+  QK_BOOT, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F11,
   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_TRNS,
@@ -89,7 +89,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                         KC_NO,
                                       KC_NO,   KC_NO,   KC_NO,
   // right hand
-  KC_F12,  KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  RESET,
+  KC_F12,  KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  QK_BOOT,
   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
            KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
   KC_TRNS, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,

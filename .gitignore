@@ -1,0 +1,9 @@
+# Ignore build symlinks
+result*
+.tmp
+
+# Ignore direnv cache
+.direnv/
+
+# Ignore qmk clone
+*/qmk_firmware/
