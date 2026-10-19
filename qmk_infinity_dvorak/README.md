@@ -6,7 +6,7 @@
 
 ```bash
 # Prepare the code
-git clone https://github.com/qmk/qmk_firmware.git
+qmk clone -b 0.34.7
 
 # Enter directory
 cd qmk_firmware

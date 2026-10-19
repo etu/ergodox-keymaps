@@ -6,7 +6,7 @@
 
 ```bash
 # Prepare the code
-qmk clone -b 0.27.9
+qmk clone -b 0.34.7
 
 # Enter directory
 cd qmk_firmware
