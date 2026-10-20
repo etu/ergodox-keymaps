@@ -28,14 +28,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------|  f1  |           |  f1  |------+------+------+------+------+--------|
  * | LShift |  ;:  |   Q  |   J  |   K  |   X  |      |           |      |   B  |   M  |   W  |   V  |   Z  | RShift |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
- *   | LGUI |      | Shot | Left | Right|                                       | Left | Down |  Up  |Right |      |
+ *   | LGUI |      | Shot | Left | Right|                                       | Left | Down |  Up  |Right | RGUI |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,-------------.
  *                                        | Del  | Home |       | PgUp | RCtrl  |
  *                                 ,------|------|------|       |------+--------+------.
  *                                 |      |      | End  |       | PgDn |        |      |
  *                                 | Back | Left |------|       |------| Enter  |Space |
- *                                 | Space| Ctrl | LAlt |       | RGUI |        |      |
+ *                                 | Space| Ctrl | LAlt |       | RAlt |        |      |
  *                                 `--------------------'       `----------------------'
  */
 [BASE] = LAYOUT_ergodox(
@@ -53,10 +53,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   DV_RBRC,         DV_F,        DV_G,          DV_C,    DV_R,    DV_L,    DV_EQL,
                    DV_D,        DV_H,          DV_T,    DV_N,    DV_S,    DV_MINS,
   MO(FN),          DV_B,        DV_M,          DV_W,    DV_V,    DV_Z,    KC_RSFT,
-                                KC_LEFT,       KC_DOWN, KC_UP,   KC_RGHT, KC_NO,
+                                KC_LEFT,       KC_DOWN, KC_UP,   KC_RGHT, KC_RGUI,
   KC_PGUP,         KC_RCTL,
   KC_PGDN,
-  KC_RGUI,         KC_ENT,      KC_SPC),
+  KC_RALT,         KC_ENT,      KC_SPC),
 
 /* Keymap 1: Function layer
  *
